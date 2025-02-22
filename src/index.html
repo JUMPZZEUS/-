@@ -8,116 +8,126 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-   <header>
-    <div class="pered_header flex flex-col items-center justify-between py-[50px] h-[100vh] text-white">
-        <img src="./projeco-logo.png" alt="">
-
-        <div class="text-center">
-            <h1 class="text-[50px]">PARTNER WITH KONSTUCT</h1>
-            <p class="text-[18px]">An award-winning construction management firm</p>
+    <div class="pered_header flex flex-col items-center md:justify-between md:py-[50px] py-3 md:h-[100vh] text-white">
+            <img src="./projeco-logo.png" alt="">
+    
+            <div class="text-center">
+                <h1 class=" font-bold text-[25px] md:text-[50px] my-[45px]">PARTNER WITH KONSTUCT</h1>
+                <p class="hidden md:block md:text-[18px]">An award-winning construction management firm</p>
+            </div>
+            <p>SCROLL DOWN</p>
         </div>
-
-        <p>SCROLL DOWN</p>
-    </div>
-    <nav class="flex place-content-between pt-[10px] pb-[10px] border-b-[1px] border-gray-500">
-        <img src="./projeco-logo-black.png" alt="" class=" pl-20 h-[20px]">
-        <ul class="flex gap-20 pr-20">
-            <li>HOME</li>
-            <li class="text-blue-500 hidden md:block">ABOUT</li>
-            <li>SERVICES</li>
-            <li>WORK</li>
-            <li>CONTACT</li>
-        </ul>
-    </nav>
-   </header>
-<section class=" flex flex-col gap-[100px] mt[100px] pl-[10%] pr-[10%] ">
-    <div class="flex flex-col items-center">
-<h1 class="text-[40px]">OUR STORY</h1>
-<div class="w-[90px] h-[1px] bg-blue-500"></div>
-    </div>
-    <div class="flex justify-between">
-        <aside class="w-[45%] flex flex-col gap-[40px]">
-            <h2 class="text-[25px] font-bold">Founded in 2011 by John Mathew Smith, <span class="text-blue-500">Konstruct</span> has
-                become the
-                number one construction
-                management firm</h2>
-                <p class="text-[#48555B]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                    nibh euismod tincidunt
-                    ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-        </aside>
-        <aside class="flex w-[45%] justify-around items-end">
-            <img src="./plan.png" alt="">
-            <img src="./manage.png" alt="">
-            <img src="./deliver.png" alt="">
-        </aside>
-    </div>
-</section>
-    </div>
-</section>
-<section class="px-[10%] mt-[100px] flex flex-col gap-[100px]">
-    <div class="flex justify-between items-center">
-        <div>
-            <h1 class="text-[30px]">OUR CAPABILITIES</h1>
-            <div class="w-[80px] h-[2px] bg-blue-500"></div>
-        </div>
-        <div class="flex justify-between w-[65%]">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <br>
-                nonummy nibh euismod tincidunt
-                ut laoreet dolore magna aliquam erat.</p>
-
-            <button class="bg-blue-500 text-white  px-10">ALL SERVICES</button>
-        </div>
-    </div>
-
-    <div class="flex justify-between">
-        <img src="./service.png" alt="">
-        <img src="./service (1).png" alt="">
-        <img src="./service (2).png" alt="">
-    </div>
-</section>
-<section class=" relative mt-[150px] ">
-
-    <img src="./bg (1).png" alt="" class="absolute z-[-1] w-[100%] bottom-[-250px]">
-
+        <header class="px-[10%] hidden md:block">
+            <nav class="flex justify-between items-center py-5">
+                <img src="projeco-logo-black.png" alt="">
+    
+                <ul class="flex gap-[80px]">
+                    <li>Home</li>
+                    <li class="text-blue-500">About</li>
+                    <li>Services</li>
+                    <li>Work</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+            <section class="md-[100px] mt-[100px] md:px-[10%] flex flex-col gap-[50px] md:gap-[150px] px-5">
+                <div class="flex flex-col items-center ">
+                    <h1 class="text-[40px]">OUR STORY</h1>
+                    <div class="w-[90px] h-[2px] bg-[#00A4E5]"></div>
+                </div>
+    
+                <div class="md:flex justify-between ">
+                    <aside class="md:w-[45%] flex flex-col gap-[40px]">
+                        <h2 class="text-[25px] font-bold">Founded in 2011 by John Mathew Smith, <span class="text-blue-500">Konstruct</span> has
+                            become the
+                            number one construction
+                            management firm</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonummy
+                            nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </aside>
+                    <aside class=" w-[100%] md:w-[43%] md:flex md:justify-between flex-col md:flex-row m-auto md:items-end">
+                        <img src="./plan.png" alt="" class="w-[100%] md:w-auto mt-5 md:m-0">
+                        <img src="./manage.png" alt="" class="w-[100%] md:w-auto mt-5 md:m-0">
+                        <img src="./deliver.png" alt="" class="w-[100%] md:w-auto mt-5 md:m-0">
+                    </aside>
+                </div>
+            </section>
+    
+            <section class="px-[10%] mt-[100px] flex flex-col gap-[100px]">
+                <div class="flex justify-between items-center flex-col md:flex-row">
+                    <div>
+                        <h1 class="text-[30px]">OUR CAPABILITIES</h1>
+                        <div class="w-[80px] h-[2px] bg-blue-500"></div>
+                    </div>
+                    <div class="flex justify-between md:w-[65%]">
+                        <p class="hidden md:block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam <br class="hidden md:block">
+                            nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat.</p>
+    
+                        <button class="bg-[#00A4E5] text-white font-bold px-10 mt-10 md:m-0">ALL SERVICES</button>
+                    </div>
+                </div>
+    
+                <div class="flex justify-between flex-col md:flex-row gap-10">
+                    <img src="./service.png" alt="">
+                    <img src="./service (1).png" alt="">
+                    <img src="./service (2).png" alt="">
+                </div>
+            </section>
+    
+            <section class=" relative mt-[150px] ">
+    
+                <img src="./bg (1).png" alt="" class="absolute z-[-1] w-[100%] bottom-[-250px]">
     <div class="static text-center flex flex-col items-center justify-center gap-[50px]">
-        <h1 class="text-[45px]">Want to build <br> something amazing?</h1>
-        <button class="bg-blue-500 text-white font-bold px-[50px] pt-3 pb-3">ALL SERVICES</button>
-    </div>
-</section>
-<footer class="bg-[#171819] text-white flex justify-center mt-[240px] pt-5 pb-5 gap-10 items-center">
-    <h1 class="text-[30px]">Newsletter Signup</h1>
-
-    <div class="bg-blue-300 flex gap-0">
-        <input type="email" placeholder="test@youremail.com" class="pt-1 pb-1 w-[300px] pl-5"> <button
-            class="bg-blue-500 pt-1 pb-1 px-3">SIGNUP</button>
-    </div>
-</footer>
-<div class="main bg-[#141A20] text-white flex justify-around items-center py-[50px]">
-
-    <div class="left">
-        <h2>Company</h2>
-        <img src="./projeco-logo.png" alt="" class="my-5">
-        <p>Lorem ipsum dolor sit amet, consectetuer <br> adipiscing elit, sed diam nonummy nibh <br> euismod tincidunt ut
-            laoreet dolore <br> magna aliquam erat.</p>
-        </div>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>services</li>
-            <li>Projects</li>
-            <li>Contact Us</li>
-        </ul>
-        <ul>
-            <li>Faq</li>
-            <li>Terms</li>
-            <li>Careers</li>
-        </ul>
-        <ul>
-            <li>Blog</li>
-            <li>Partners</li>
-            <li>News</li>
-        </ul>
-    </div>
-</body>
-</html>
+                    <h1 class="text-[45px]">Want to build <br> something amazing?</h1>
+                    <button class="bg-blue-500 text-white  px-[50px] py-3">ALL SERVICES</button>
+                </div>
+    
+            </section>
+    
+            <footer class=" text-white flex justify-center mt-[240px] py-5 gap-10 items-center w-[100%]">
+                <h1 class="text-[30px] hidden md:block">Newsletter Signup</h1>
+    
+                <div class="bg-[aqua] flex gap-0">
+                    <input type="email" placeholder="test@youremail.com" class="py-1 md:w-[300px] pl-5"> <button
+                        class="bg-blue-500 py-1 font-bold px-3">SIGNUP</button>
+                </div>
+            </footer>
+    
+            <div class="main bg-black text-white flex justify-around items-center py-[50px]">
+    
+                <div class="left">
+                    <h2>Company</h2>
+                    <img src="./projeco-logo.png" alt="" class="my-5">
+                    <p class="hidden md:block">Lorem ipsum dolor sit amet, consectetuer <br> adipiscing elit, sed diam nonummy nibh <br> euismod
+                        tincidunt ut
+                        laoreet dolore <br> magna aliquam erat.</p>
+                </div>
+                <ul class="hidden md:block">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>services</li>
+                    <li>Projects</li>
+                    <li>Contact Us</li>
+                </ul>
+    
+                <ul class="hidden md:block">
+                    <li>Faq</li>
+                    <li>Terms</li>
+                    <li>Careers</li>
+                </ul>
+    
+                <ul class="hidden md:block">
+                    <li>Blog</li>
+                    <li>Partners</li>
+                    <li>News</li>
+                </ul>
+            </div>
+    </body>
+    
+    </html>
